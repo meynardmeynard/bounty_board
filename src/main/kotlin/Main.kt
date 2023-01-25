@@ -25,4 +25,6 @@ fun main(args: Array<String>) {
     println("$HERO_NAME has $heroGold gold")
     println("Here's our available drinks")
     for (d in drinks) { println("$d") }
+
+    println("\nMagic Mirror ${HERO_NAME.reversed()}")
 }
